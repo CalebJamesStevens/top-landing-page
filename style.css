@@ -1,7 +1,3 @@
-.header-logo {
-
-}
-
 .header {
     display: flex;
     justify-content: space-between;
@@ -9,6 +5,12 @@
     background-color: #1F2937;
     color: #F9FAF8;
     padding: 8px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
 }
 
 .header-right-links {
@@ -41,40 +43,128 @@ a {
 .sign-up {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #1F2937;
-}
-
-.random-info {
-    text-align: center;
-}
-
-.inspirational-quote {
-    background-color: #E5E7EB;
-}
-
-.call-to-action {
-    
 }
 
 .sign-up-info {
     color: #F9FAF8;
-    width: 200px;
+    width: 400px;
+}
+
+.text-one {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.text-two {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sign-up-button {
+    margin-top: 8px;
+    color: #E5E7EB;
+    border: none;
+    background-color: #3882F6;
+    padding: 8px 32px;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.random-info {
+    text-align: center;
+    justify-content: center;
+    flex-grow: 0;
+}
+
+.info-header-text {
+    margin: 16px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
 }
 
 .random-info-images {
+    margin-top: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+
+}
+
+.random-image {
+    margin-right: 16px;
+    width: 200px;
+    height: 200px;
+}
+
+.inspirational-quote {
+    display: flex;
+    background-color: #E5E7EB;
+    align-items: center;
+}
+
+.iq-text {
+    font-size: 36px;
+    color: #1F2937;
+    text-align: left;
+    font-style: italic;
+}
+
+.iq-author {
+    text-align: end;
+    font-weight: bold;
+}
+
+.call-to-action {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.random-image {
-    width: 200px;
-}
-
 .cta-info {
+    
     background-color: #3882F6;
-    margin: 50px 100px;
+    color: #F9FAF8;
     padding: 50px;
     display: flex;
     justify-content: space-between;
+    border-radius: 8px;
+    gap: 60px;
+}
+
+.cta-primary-text {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cta-button {
+    margin-top: 8px;
+    color: #E5E7EB;
+    border: 2px solid #F9FAF8;
+    background-color: #3882F6;
+    padding: 8px 32px;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.div-padding {
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.random-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    border: 4px solid blue;
+}
+
+.sign-up, .random-info, .call-to-action, .inspirational-quote {
+    height: 500px;
 }
